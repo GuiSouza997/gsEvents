@@ -14,9 +14,12 @@
             </div>
         </form>
     </div>
-
+    </br>
     <h2 class="text-center">Próximos Eventos</h2>
-    <p class="text-center">Veja os eventos dos próximos dias</p>
+    </br>
+    @if(count($events) > 0)
+        <p class="text-center">Veja os eventos dos próximos dias</p>
+    @endif
 
     <div  class="container">
 
